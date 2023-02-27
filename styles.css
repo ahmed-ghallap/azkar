@@ -1,0 +1,55 @@
+body {
+    background-color: salmon;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-holder {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 15px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid dodgerblue;
+    border-radius: 12px;
+}
+
+.card {
+    font-size: 1.3em;
+    font-weight: 550;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    /* background-color: green; */
+}
+
+.btn > a {
+    display: inline-block;
+    padding: 2px 8px;
+    text-align: center;
+    width: 70px;
+    color: antiquewhite;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: orange;
+    border: 2px solid dodgerblue;
+    border-radius: 50px;
+
+}
+
+/* a > span {
+    border: 2px solid black;
+    border-radius: 15%;
+} */
