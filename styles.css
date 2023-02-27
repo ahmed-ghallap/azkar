@@ -1,10 +1,22 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: salmon;
+
+    scroll-behavior: smooth;
+    background: linear-gradient(#12c2e9, #c471ed, #f64f59);
+    margin: 0;
+    direction: rtl;
 }
 
 h1 {
     display: flex;
     justify-content: center;
+    font-weight: 700;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.764);
+    letter-spacing: 3px;
+
 }
 
 .card-holder {
@@ -49,7 +61,51 @@ h1 {
 
 }
 
-/* a > span {
-    border: 2px solid black;
-    border-radius: 15%;
-} */
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    /* background: linear-gradient(#1f4037 ,#99f2c8) */
+    background-color: white;
+}
+
+nav > a {
+    font-size: 1.2em;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 118px;
+    padding: 1px 4px;
+    margin: 3px 0;
+
+    border-radius: 8px;   
+    
+}
+
+.btn-night {
+    border: 1px solid #c471ed;
+    color: #c471ed;
+}
+.btn-morning {
+    border: 1px solid YellowGreen;
+    color: YellowGreen ;
+}
+
+.btn-night:hover {
+    background-color: #c471ed;
+    color: white;
+}
+.btn-morning:hover {
+    background-color: YellowGreen;
+    color: white;
+}
+
+.icon {
+    color: red;
+    font-size: 2em;
+}
