@@ -29,8 +29,11 @@ html, body {
 
 h2 {
     position: absolute;
-    top: 34px;
+    top: 45px;
+    letter-spacing: 3px;
     color: #12c2e9;
+    font-weight: 700;
+    font-style: italic;
 
 }
 
@@ -62,7 +65,7 @@ h1 {
     justify-content: center;
     font-weight: 700;
     font-style: italic;
-    color: rgba(255, 255, 255, 0.764);
+    color: rgb(255 255 25 / 71%);
     letter-spacing: 3px;
 
 }
@@ -122,8 +125,9 @@ nav {
 
 #sub-nav {
     height: 15px;
-    background-color: wheat;
-    box-shadow: 0 7px limegreen;
+    background-color: #eee;
+    border-radius: 0 0 9px 9px;
+    box-shadow: 0 9px limegreen;
 
 }
 
