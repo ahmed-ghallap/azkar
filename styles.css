@@ -2,12 +2,59 @@
     box-sizing: border-box;
 }
 body {
-
+    background: linear-gradient(#3494E6, #EC6EAD);
     scroll-behavior: smooth;
-    background: linear-gradient(#12c2e9, #c471ed, #f64f59);
-    margin: 0;
     direction: rtl;
 }
+
+.html-home {
+    height: 100%;
+}
+
+html, body {
+    margin: 0;
+}
+
+.azkar-body {
+ background: linear-gradient(#12c2e9, #c471ed, #f64f59);
+}
+
+.home-body {
+    height: 100%;
+    padding: 26px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    position: absolute;
+    top: 34px;
+    color: #12c2e9;
+
+}
+
+.main-nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.main-nav  * {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 50px;
+    width: 200px;
+    margin: 10px 0;
+}
+
+
+
+
 
 h1 {
     display: flex;
@@ -109,3 +156,4 @@ nav > a {
     color: red;
     font-size: 2em;
 }
+
