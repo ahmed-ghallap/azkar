@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(#3494E6, #EC6EAD);
+    background: linear-gradient(#34abe6 , BlueViolet , MediumBlue);
     scroll-behavior: smooth;
     direction: rtl;
 }
@@ -29,9 +29,8 @@ html, body {
 
 h2 {
     position: absolute;
-    top: 45px;
+    top: 100px;
     letter-spacing: 3px;
-    color: #12c2e9;
     font-weight: 700;
     font-style: italic;
 
@@ -48,12 +47,8 @@ h2 {
 .main-nav  * {
     font-size: 1.3em;
     font-weight: 700;
-    color: white;
-    text-decoration: none;
     list-style: none;
     border-radius: 50px;
-    width: 200px;
-    margin: 10px 0;
 }
 
 
