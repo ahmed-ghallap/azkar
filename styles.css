@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -52,20 +55,19 @@ h2 {
 }
 
 
-
-
-
 h1 {
+    font-family: 'Reem Kufi Fun', sans-serif;
     display: flex;
     justify-content: center;
     font-weight: 700;
     font-style: italic;
-    color: rgb(255 255 25 / 71%);
+    color: #e5e5e5;
     letter-spacing: 3px;
 
 }
 
 .card-holder {
+    font-family: 'Changa', sans-serif;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -74,7 +76,6 @@ h1 {
     background-color: white;
     text-align: center;
     border-radius: 12px;
-    /* border: 2px solid dodgerblue; */
     box-shadow: 0 0 5px 3px #e3ffa3;
 }
 
@@ -94,6 +95,7 @@ h1 {
 }
 
 .btn > a {
+    font-family: 'Changa', sans-serif;
     display: inline-block;
     padding: 2px 8px;
     text-align: center;
@@ -127,13 +129,14 @@ nav {
 }
 
 nav > a {
+    font-family: 'Changa', sans-serif;
     font-size: 1.2em;
     text-decoration: none;
 
     text-align: center;
 
     width: 118px;
-    padding: 9px 4px;
+    padding: 4px;
     margin: 6px 0;
 
     border-radius: 8px;   
