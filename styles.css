@@ -41,6 +41,7 @@ h2 {
    flex-direction: column;
 }
 
+
 .main-nav  * {
     font-size: 1.3em;
     font-weight: 700;
@@ -91,7 +92,6 @@ h1 {
 .btn {
     display: flex;
     justify-content: center;
-    /* background-color: green; */
 }
 
 .btn > a {
@@ -114,8 +114,9 @@ nav {
     width: 100%;
     height: 40px;
     padding: 0 10px;
-    /* background: linear-gradient(#1f4037 ,#99f2c8) */
     background-color: white;
+    box-shadow: 0 7px limegreen;
+
 }
 
 nav > a {
@@ -135,10 +136,13 @@ nav > a {
 }
 
 .btn-night {
+    background-color: white;
     border: 1px solid #c471ed;
     color: #c471ed;
 }
 .btn-morning {
+    background-color: white;
+
     border: 1px solid YellowGreen;
     color: YellowGreen ;
 }
