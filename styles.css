@@ -138,9 +138,15 @@ nav {
     box-shadow: 0 2px limegreen;
 
 }
+#dodo {
+    display: flex;
+    align-content: center;
+}
 button {
-    padding-bottom: 2px;
-    margin: 2px;
+    
+    margin: auto;
+    height: 100%;
+    background: transparent;
     margin-left: 4px;
     font-size: 1.1em;
     border: none;
